@@ -3,49 +3,64 @@
 }
 
 .inner-header-style {
-	padding-top: calc(70px - 26px);
-	padding-bottom: calc(70px - 26px);
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
 	padding-left: 75px;
 	padding-right: 25px;
+	padding-bottom: 10px;
 }
 
 .outer-header-style > .inner-header-style {
-	background-image: none;
 	background-color: #45b7e6;
-	color: #ffffff;
+	background-image: none;
 	border: .5pt solid #8da8bf;
+	color: #ffffff;
 }
 
 .panel-heading-text {
-	font-size: 52px;
 	font-family: "Open Sans";
+	font-size: 52px;
+	height: 45px;
+	line-height: 40px;
+	margin-bottom: 70px;
+	margin-top: 70px;
+	position: relative;
+}
+
+.panel-heading-text span {
+	display: inline-block;
+	line-height: 40px;
+	position: absolute;
+	padding-top: 2px;
 }
 
 .arrow-button {
-	padding-top: 3%;
 	float: right;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .submit-button {
-	background-color: Transparent;
-	background-repeat:no-repeat;
+	background-color: transparent;
+	background-repeat: no-repeat;
 	border: none;
 	cursor: pointer;
-	overflow: hidden;
 	outline: none;
+	overflow: hidden;
 }
 
 .search-container {
-	width: auto;
 	overflow: auto;
+	width: auto;
 }
 
 .panel-search {
-	padding-top: 15px;
 	color: #555555;
 	float: right;
-	padding-right: 20px;
 	font-size: 15px;
+	padding-right: 20px;
+	padding-top: 15px;
 }
 
 .panel-body {
@@ -58,20 +73,20 @@
 }
 
 .news-item {
-	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .news-item:hover {
 	background-color: #c4ece4;
 }
 
-.new-image-div {
+.new-image-placeholder {
 	display: inline-block;
-	width: 75px;
-	max-width: 75px;
 	height: 75px;
 	margin-bottom: 20px;
+	max-width: 75px;
+	width: 75px;
 }
 
 .new-image {
@@ -79,22 +94,22 @@
 }
 
 .news-body {
-	padding-left: 4px;
 	display: inline-block;
+	padding-left: 4px;
 }
 
 .news-item-header {
-	text-decoration: underline;
 	font-size: 18pt;
 	font-family: "Open Sans";
 	font-weight: 600;
+	text-decoration: underline;
 }
 
 .news-content {
+	color: #555555;
 	font-size: 18pt;
 	font-family: "Open Sans";
 	width: 470px;
-	color: #555555;
 }
 
 .news-item-header, a{
@@ -102,9 +117,9 @@
 }
 
 .news-thumbnail {
+	float: left;
 	margin-top: 8px;
 	margin-right: 11px;
-	float: left;
 }
 
 .read-more {

@@ -1,3 +1,4 @@
+//Default set the arrow to closed on page load
 var open = false;
 $(".arrow-button").click(function() {
 	if(open) {
