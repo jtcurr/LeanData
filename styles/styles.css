@@ -59,14 +59,13 @@
 .news-item {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	width: 100%;
 }
 
 .news-item:hover {
 	background-color: #c4ece4;
 }
 
-.image-div {
+.new-image-div {
 	display: inline-block;
 	width: 75px;
 	max-width: 75px;
@@ -79,11 +78,8 @@
 }
 
 .news-body {
+	padding-left: 4px;
 	display: inline-block;
-}
-
-.moots:hover {
-	background-color: red;
 }
 
 .news-item-header {
@@ -97,10 +93,23 @@
 	font-size: 18pt;
 	font-family: "Open Sans";
 	width: 470px;
+	color: #555555;
 }
 
 .news-item-header, a{
 	color: #555555;
+}
+
+.news-thumbnail {
+	margin-top: 8px;
+	margin-right: 11px;
+	float: left;
+}
+
+.read-more {
+	color: #70ccb5;
+	font-size: 14px;
+	margin-left: 8px;
 }
 
 .search-input {
