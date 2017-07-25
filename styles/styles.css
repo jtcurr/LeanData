@@ -1,25 +1,35 @@
 .header-container-style {
+	position: absolute;
 	width: 650px;
+	border: 1.5pt solid #8da8bf;
+	border-radius: 15px;
+	background-color: #8da8bf;
 }
-
+/*Trimming overlap on borders*/
 .inner-header-style {
-	margin: 0;
+	margin-top: -1px;
+	margin-left: -1px;
+	margin-right: -1px;
 	padding-top: 0;
-	padding-bottom: 0;
 	padding-left: 75px;
 	padding-right: 25px;
 	padding-bottom: 10px;
 }
 
+.outer-header-style {
+	border: 0px;
+	background-color: transparent;
+}
+
 .outer-header-style > .inner-header-style {
 	background-color: #45b7e6;
 	background-image: none;
-	border: .5pt solid #8da8bf;
+	border: 1.5pt solid #8da8bf;
 	color: #ffffff;
+	border-radius: 15px;
 }
 
 .panel-heading-text {
-	font-family: "Open Sans";
 	font-size: 52px;
 	height: 45px;
 	line-height: 40px;
@@ -35,12 +45,14 @@
 	padding-top: 2px;
 }
 
-.arrow-button {
-	float: right;
-	margin-bottom: 0;
-	padding-bottom: 0;
+.panel-heaing-text, .news-item-header, .news-content {
+	font-family: "Open Sans";
 }
 
+.arrow-button {
+	float: right;
+}
+/*Removing styles from button*/
 .submit-button {
 	background-color: transparent;
 	background-repeat: no-repeat;
@@ -52,11 +64,17 @@
 
 .search-container {
 	overflow: auto;
-	width: auto;
 }
 
-.panel-search {
+.search-input {
+	margin-left: 10px;
+}
+
+.panel-search, .news-content {
 	color: #555555;
+} 
+
+.panel-search {
 	float: right;
 	font-size: 15px;
 	padding-right: 20px;
@@ -66,10 +84,7 @@
 .panel-body {
 	height: 1075px;
 	padding: 0;
-}
-
-.panel-container {
-	width: 100%;
+	border-radius: 15px
 }
 
 .news-item {
@@ -100,15 +115,12 @@
 
 .news-item-header {
 	font-size: 18pt;
-	font-family: "Open Sans";
 	font-weight: 600;
 	text-decoration: underline;
 }
 
 .news-content {
-	color: #555555;
 	font-size: 18pt;
-	font-family: "Open Sans";
 	width: 470px;
 }
 
@@ -128,15 +140,16 @@
 	margin-left: 8px;
 }
 
-.search-input {
-	margin-left: 10px;
+.panel-body {
+	background-color: #fff;
+	border-color: transparent;
+	box-shadow: none;
 }
-
-.panel {
-	border-radius: 15px;
-	border: 1.5px solid #8da8bf;
+/*Workaround for removing bootstrap's panel borders*/
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+	border: none;
 }
-
+/*Changing HR to dotted*/
 hr {
 	border-top: 2px dotted #8da8bf;
 }
