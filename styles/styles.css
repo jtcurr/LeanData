@@ -3,8 +3,8 @@
 }
 
 .inner-header-style {
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: calc(70px - 26px);
+	padding-bottom: calc(70px - 26px);
 	padding-left: 75px;
 	padding-right: 25px;
 }
