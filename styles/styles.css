@@ -1,0 +1,14 @@
+.header-container-style {
+	width: 650px;
+}
+.inner-header-style {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-left: 75px;
+}
+
+.outer-header-style > .inner-header-style {
+	background-image: none;
+  background-color: #45b7e6;
+  color: #ffffff;
+}
