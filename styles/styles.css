@@ -1,9 +1,8 @@
 .header-container-style {
-	position: absolute;
-	width: 650px;
 	border: 1.5pt solid #8da8bf;
 	border-radius: 15px;
 	background-color: #8da8bf;
+	width: 650px;
 }
 /*Trimming overlap on borders*/
 .inner-header-style {
@@ -17,7 +16,6 @@
 }
 
 .outer-header-style {
-	border: 0px;
 	background-color: transparent;
 }
 
@@ -32,7 +30,6 @@
 .panel-heading-text {
 	font-size: 52px;
 	height: 45px;
-	line-height: 40px;
 	margin-bottom: 70px;
 	margin-top: 70px;
 	position: relative;
