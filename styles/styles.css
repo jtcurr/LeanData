@@ -31,10 +31,19 @@
 	padding-bottom: 15px;
 	color: #555555;
 	float: right;
+	clear: left;
 }
 
 .search-input {
 	margin-left: 10px;
+}
+
+ul {
+	margin-left: 75px;
+}
+
+.new-news-items {
+	list-style-image: url('../Assets/NEW_icon.png');
 }
 
 .panel {
