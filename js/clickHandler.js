@@ -8,7 +8,7 @@ $(".arrow-button").click(function() {
       $(".arrow-button").attr('src', 'Assets/Collapse_Arrow.png');
       $(".header-container-style").css("border", "1.5pt solid #8da8bf");
       $(".header-container-style").css("background-color", "#8da8bf");
-    }, 350);
+    });
     open = false;
   } else {
     $(".arrow-button").attr('src', 'Assets/Expand_Arrow.png');
